@@ -1,26 +1,9 @@
 package encapsulation;
 
-public class Student {
-    private String stuId;
+public class Student extends User{
     private String stuName;
     private String number;
-    private String password;
 
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getStuId() {
-        return stuId;
-    }
-
-    public void setStuId(String stuId) {
-        this.stuId = stuId;
-    }
 
     public String getStuName() {
         return stuName;
