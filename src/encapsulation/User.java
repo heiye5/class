@@ -4,11 +4,18 @@ public class User {
     private String id;
     private String password;
 
+    public void Print(){
+        System.out.println("父类方法");
+    }
+
     public String getId() {
         return id;
     }
 
     public void setId(String id) {
+        if(id.length()<10){
+            return;
+        }
         this.id = id;
     }
 

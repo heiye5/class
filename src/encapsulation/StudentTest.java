@@ -5,11 +5,13 @@ public class StudentTest {
         Student student = new Student();
 
         student.setNumber("123134785");
-        student.setId("2018608114");
+        student.setId("201860811");
         student.setStuName("这个");
 
-        System.out.println("stuId" + student.getId());
-        System.out.println("stuName" + student.getStuName());
-        System.out.println("stuNumber" + student.getNumber());
+//        System.out.println("stuId = " + student.getId());
+//        System.out.println("stuName = " + student.getStuName());
+//        System.out.println("stuNumber = " + student.getNumber());
+
+        System.out.println(student.getNumber());
     }
 }
