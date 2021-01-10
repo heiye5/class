@@ -4,6 +4,10 @@ public class User {
     private String id;
     private String password;
 
+    public User(String id) {
+        this.id = id;
+    }
+
     public void Print(){
         System.out.println("父类方法");
     }
